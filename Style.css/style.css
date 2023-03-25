@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+body{
+    background:#B2C7DF;
+    margin: 0px;
+}
+header{
+    background:rgba(27, 26, 94, 0.72);
+    display: grid;
+    grid-auto-flow: column;
+}
+.logo{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+}
+.title{
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+#sec-form{
+    display: grid;
+    grid-auto-flow: column;
+}
+form{
+    display: grid;
+    grid-auto-flow: row;
+}
+label{
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+input{
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    height: 54px;
+    font-family: 'Alegreya Sans SC';
+}
+button{
+    background: #1B1A5E;
+    border-radius: 10px;
+    font-family: 'Anaheim';
+    margin: 0 auto;
+    width: 244px;
+    height: 52px;
+    margin-top: 56px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+}
+th{
+    background: rgba(64, 123, 255, 0.55);
+    border: 1px solid #767373;
+    width: 110px;
+    font-family: 'Alegreya Sans SC';
+}
+td{
+    background: white;
+    border: 1px solid #767373;
+}
